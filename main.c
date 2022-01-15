@@ -1,8 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-/* run this program using the console pauser or add your own getch, system("pause") or input loop */
-
 int checkans(){
 	char answer = 'o';
 	while (answer != 'n'  && answer != 'y'){
@@ -12,7 +10,7 @@ int checkans(){
 	if (answer == 'y'){
 		dothething();
 	}
-	else if (answer == 'y'){
+	else if (answer == 'n'){
 		return 1;
 	}
 	return 0;
